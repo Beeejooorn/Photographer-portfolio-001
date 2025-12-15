@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,84 +9,140 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
+
     <body>
         <nav>
                 <a href="/">
                     <h1 class="logo-text">Your Name</h1>
                 </a>
 
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
                 <ul class="nav-items">
-                    <li><a href="#home" class="nav-item">Home</a></li>
-                    <li><a href="#about" class="nav-item">About</a></li>
-                    <li><a href="#work" class="nav-item">Work</a></li>
-                    <li><a href="#contact" class="nav-item">Contact</a></li>
+                    <li><a href="index.html" class="nav-item">Home</a></li>
+                    <li><a href="about.html" class="nav-item">About</a></li>
+                    <li><a href="work.html" class="nav-item">Work</a></li>
+                    <li><a href="contact.html" class="nav-item">Contact</a></li>
                 </ul>
         </nav>
         <main>
-            <section class="hero-section">
-                <p class="page-tag">professional photographer</p>
-                <h2>
-                    capturing
-                    <span class="highlight">timeless</span>
-                    moments
-                </h2>
-                <p class="hero-subtext">creating visual stories that evoke emotion and preserve the beauty of fleeing moments</p>
+            <section>
+                <section class="portfolio-header">
+        <p class="portfolio-tag animate-on-scroll">PORTFOLIO</p>
+        <h1 class="portfolio-title animate-on-scroll">Selected <span class="highlight">Works</span></h1>
 
-                <a href="/" class="landing-btn"> view portfolio</a>
-            </section>
+        <!-- Filter Tabs -->
+        <div class="filter-tabs animate-on-scroll">
+    <button class="filter-tab active" data-filter="all">ALL</button>
+    <button class="filter-tab" data-filter="portrait">PORTRAITS</button>
+    <button class="filter-tab" data-filter="architecture">ARCHITECTURE</button>
+    <button class="filter-tab" data-filter="fashion">FASHION</button>
+    <button class="filter-tab" data-filter="landscape">LANDSCAPE</button>
+</div>
+    </section>
 
-            <section class="selected-works" id="work">
-                <div class="featured-header">
-                    <div class="featured-titles">
-                        <p class="page-tag">Selected Works</p>
-                        <h3 class="section-title">Featured Projects</h3>
-                    </div>
-                        <a href="#all-projects" class="see-all">
-                            see all
-                            <svg width="16" height="11" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 7H17M17 7L11 1M17 7L11 13" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        </a>
-                </div>
-                <section class="featured-works">
-                    <div class="works-grid">
-                        <div class="work-item">
-                            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait Photography">
-                        <div class="work-overlay">
-                            <p class="work-category">EDITORIAL</p>
-                                <h3 class="work-title">Fashion</h3>
-                        </div>
-                     </div>
-                    <div class="work-item">
-                            <img src="https://images.unsplash.com/photo-1757952854354-0b5495662b9f?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Architecture Photography">
-                        <div class="work-overlay">
-                            <p class="work-category">ARCHITECTURE</p>
-                            <h3 class="work-title">Modern Design</h3>
-                        </div>
-                    </div>
-                    <div class="work-item">
-                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait Photography">
-                            <div class="work-overlay">
-                                <p class="work-category">PORTRAIT</p>
-                                <h3 class="work-title">Studio Session</h3>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </section>
+    <div class="portfolio-grid">
+    <div class="portfolio-item scale-up" data-category="portrait">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fashion Photography">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">PORTRAIT</p>
+            <h3 class="overlay-title">Fashion</h3>
+        </div>
+    </div>
 
-        
-            <section class="cta-section">
-        <h2 class="cta-heading">Let's Create <span class="highlight">Together</span></h2>
-        <p class="cta-description">
-            Ready to capture your vision? Connect with me on social media to discuss your next project.
-        </p>
-        <a href="#contact" class="cta-button">
-            GET IN TOUCH
-            <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 7H17M17 7L11 1M17 7L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </a>
+    <div class="portfolio-item scale-up" data-category="architecture">
+        <img src="https://images.unsplash.com/photo-1757952854354-0b5495662b9f?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Architecture">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">ARCHITECTURE</p>
+            <h3 class="overlay-title">Modern Design</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="portrait">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">PORTRAIT</p>
+            <h3 class="overlay-title">Studio Session</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="landscape">
+        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Landscape">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">LANDSCAPE</p>
+            <h3 class="overlay-title">Nature</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="architecture">
+        <img src="https://images.unsplash.com/photo-1678698437400-ce344b987821?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Architecture">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">ARCHITECTURE</p>
+            <h3 class="overlay-title">Minimalist</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="fashion">
+        <img src="https://images.unsplash.com/photo-1548169874-53e85f753f1e?q=80&w=1010&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">FASHION</p>
+            <h3 class="overlay-title">Luxury Watch</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="portrait">
+        <img src="https://images.unsplash.com/photo-1760462830448-8336e6298fb5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">PORTRAIT</p>
+            <h3 class="overlay-title">Ethereal Grace</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="architecture">
+        <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Architecture">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">ARCHITECTURE</p>
+            <h3 class="overlay-title">Minimalist</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="fashion">
+        <img src="https://images.unsplash.com/photo-1590739225287-bd31519780c3?q=80&w=661&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">FASHION</p>
+            <h3 class="overlay-title">Luxury Bag</h3>
+        </div>
+    </div>
+    
+    <div class="portfolio-item scale-up" data-category="landscape">
+        <img src="https://plus.unsplash.com/premium_photo-1677347335105-1bd16607a25e?q=80&w=767&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">LANDSCAPE</p>
+            <h3 class="overlay-title">Nature</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="landscape">
+        <img src="https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Portrait">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">LANDSCAPE</p>
+            <h3 class="overlay-title">Nature</h3>
+        </div>
+    </div>
+
+    <div class="portfolio-item scale-up" data-category="fashion">
+        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cars">
+        <div class="portfolio-overlay">
+            <p class="overlay-category">FASHION</p>
+            <h3 class="overlay-title">Luxury Car</h3>
+        </div>
+    </div> 
+
+</div>
             </section>
         </main>
 
