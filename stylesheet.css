@@ -19,7 +19,7 @@ nav {
     display:  flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 6rem;
+    padding: 2rem 6rem ;
     background-color: transparent;
 
     position: sticky;
@@ -259,15 +259,13 @@ nav a {
 
 .featured-works {
     background-color: #0a0a0a;
-    padding: 4rem 2rem;
+    padding: 4rem 6rem;
 }
 
 .works-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
 }
 
 .work-item {
@@ -400,12 +398,11 @@ nav a {
 footer {
     background-color: #0a0a0a;
     border-top: 1px solid #1a1a1a;
-    padding: 2rem;
+    padding: 2rem 6rem;
 }
 
 .footer-content {
-    max-width: 1400px;
-    margin: 0 auto;
+    /* Remove max-width and margin: 0 auto */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -441,9 +438,7 @@ footer {
 /* --------- About page ---------- */
 
         .about-hero {
-            padding: 6rem 2rem 4rem;
-            max-width: 1400px;
-            margin: 0 auto;
+            padding: 6rem 6rem 4rem;
         }
 
         .about-tag {
@@ -473,11 +468,9 @@ footer {
             display: grid;
             grid-template-columns: 1fr 1.2fr;
             gap: 4rem;
-            align-items: start;
-            margin-bottom: 6rem;
             align-items: center;
+            margin-bottom: 6rem;
         }
-
         .about-image-wrapper {
             position: relative;
         }
@@ -512,6 +505,7 @@ footer {
             grid-template-columns: repeat(3, 1fr);
             gap: 3rem;
             margin-top: 3rem;
+            padding: 0 6rem;
         }
 
         .stat-item {
@@ -536,7 +530,7 @@ footer {
         /* Philosophy Section */
         .philosophy-section {
             background-color: #0a0a0a;
-            padding: 4rem 2rem;
+            padding: 4rem 6rem;
             text-align: center;
             border-top: 1px solid #1a1a1a;
             border-bottom: 1px solid #1a1a1a;
@@ -571,9 +565,7 @@ footer {
         /* Services Section */
         .services-section {
             font-family: 'Outfit';
-            padding: 2rem 2rem 6rem;
-            max-width: 1400px;
-            margin: 0 auto;
+            padding: 2rem 6rem 6rem;
         }
 
         .services-grid {
@@ -682,9 +674,7 @@ footer {
 
 /* --------- Works page ---------- */
         .portfolio-header {
-            padding: 6rem 2rem 3rem;
-            max-width: 1400px;
-            margin: 0 auto;
+            padding: 6rem 6rem 3rem;  
         }
 
         .portfolio-tag {
@@ -710,13 +700,14 @@ footer {
         }
 
         /* Filter Tabs */
-        .filter-tabs {
-            display: flex;
-            gap: 2rem;
-            margin-bottom: 4rem;
-            border-bottom: 1px solid #1a1a1a;
-        }
-
+        /* Filter Tabs */
+.filter-tabs {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #1a1a1a;
+    /* Remove padding: 0 6rem; if tabs are inside .portfolio-header */
+}
         .filter-tab {
             font-size: 0.85rem;
             letter-spacing: 1px;
@@ -743,10 +734,9 @@ footer {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem 6rem;
+            padding: 0 6rem 6rem;  
         }
+
 
         .portfolio-item {
             position: relative;
@@ -822,9 +812,7 @@ footer {
 /* --------- Contact page ---------- */
 /* Contact Header */
         .contact-header {
-            padding: 6rem 2rem 4rem;
-            max-width: 1200px;
-            margin: 0 auto;
+            padding: 6rem 6rem 4rem; 
         }
 
         .contact-tag {
@@ -863,9 +851,8 @@ footer {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
-            max-width: 1200px;
-            margin: 0 auto 6rem;
-            padding: 0 2rem;
+            margin-bottom: 6rem;
+            padding: 0 6rem; 
         }
 
         .social-card {
@@ -945,10 +932,9 @@ footer {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
-            max-width: 1200px;
-            margin: 0 auto 6rem;
-            padding: 0 2rem;
-        }
+            margin-bottom: 6rem;
+            padding: 0 6rem; 
+        }       
 
         .location-content {
             padding-right: 2rem;
@@ -1010,9 +996,8 @@ footer {
 
         /* CTA Section */
         .contact-cta-section {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 4rem 2rem 6rem;
+            margin-bottom: 0;
+            padding: 4rem 6rem 6rem; 
             text-align: center;
         }
 
@@ -1589,12 +1574,12 @@ footer {
 
 /*---------- FOOTER ----------*/  
     footer {
-        padding: 2rem 2rem;
+        padding: 2rem 8rem;
     }
 
     .footer-content {
-        flex-direction: column !important;
-        justify-content: center !important;
+        flex-direction: column;
+        justify-content: center;
         gap: 1rem;
         text-align: center;
     }
