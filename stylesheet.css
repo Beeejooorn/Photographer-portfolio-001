@@ -1602,7 +1602,7 @@ footer {
 }
 /* --------- RESPONSIVE BREAKPOINTS ---------- */
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .hero-section {
         padding: 0 3rem;
     }
