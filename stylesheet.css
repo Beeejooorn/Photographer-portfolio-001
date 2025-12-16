@@ -1602,3 +1602,323 @@ footer {
 }
 /* --------- RESPONSIVE BREAKPOINTS ---------- */
 
+@media (max-width: 400px) {
+    .hero-section {
+        padding: 0 3rem;
+    }
+
+    .hero-section h2 {
+        font-size: 2.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .page-tag {
+        font-size: .45rem;
+    }
+
+    .hero-subtext {
+        max-width: 200px;
+        font-size: .7rem;
+    }
+
+    .landing-btn {
+        padding: .7rem;
+        font-size: .55rem;
+    }
+
+    .featured-header {
+        padding: 2rem 2rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .see-all {
+        gap: 6px;
+        font-size: .5rem;
+    }
+
+    .see-all svg {
+        width: 11px;
+        height: 9px;
+    }
+
+    .featured-works {
+        padding: 0 2rem 2rem;
+    }
+
+    .work-overlay {
+        padding: .85rem;
+    } 
+
+    .work-category {
+        font-size: .55rem;
+        margin-bottom: 0rem;
+    }
+
+    .work-title {
+        font-size: 1.5rem;
+    }
+
+    .cta-section {
+        padding: 2rem 2rem;
+    }
+
+    .cta-heading {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta-description {
+        font-size: .6rem;
+        margin: 0 auto 1.3rem;
+    }
+
+    .cta-button {
+        font-size: .5rem;
+        padding: .7rem .55rem;
+        gap: 6px;
+    }
+
+    .cta-button svg {
+        width: 11px;
+        height: 9px;
+    }
+
+    .copyright {
+        font-size: .7rem;
+    }
+
+    .social-links {
+        gap: 16px;
+    }
+
+    .social-links svg {
+        width: 20px;
+    }
+
+/* ---------------------------- HOME page ------------------------ */
+
+
+
+
+
+
+
+/* ---------------------------- ABOUT page ------------------------ */
+    .about-hero {
+        padding: 3rem 2rem 4rem;
+    }
+
+    .about-tag {
+        font-size: .55rem;
+    }
+
+    .about-title {
+        font-size: 1.5rem;
+    }
+
+    .about-greeting {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-text p {
+        font-size: .65rem;
+        margin-bottom: 1rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+        margin-bottom: .3rem;
+    }
+
+    .stat-label {
+        font-size: .55rem;
+        margin: 0;
+    }
+
+    .philosophy-section {
+        padding: 2rem 2rem;
+    }
+
+    .philosophy-tag {
+        font-size: 0.55rem;
+        margin-bottom: .5rem;
+    }
+
+    .philosophy-quote {
+        font-size: 1.5rem;
+    }
+
+    .philosophy-author {
+        font-size: .8rem;
+    }
+
+    .service-number {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .service-title {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .service-description {
+        font-size: .6rem;
+        line-height: 1.3;
+    }
+/* ---------------------------- ABOUT page ------------------------ */
+
+
+
+
+
+
+/* ---------------------------- WORKS page ------------------------ */
+    .portfolio-grid {
+        padding: 0 2rem 3rem;
+    }
+    
+
+    .portfolio-header {
+        padding: 3rem 2rem 3rem;
+    }
+
+    .portfolio-tag {
+        font-size: .55rem;
+        margin-bottom: .5rem;
+    }
+
+    .portfolio-title {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .filter-tabs {
+        gap: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .filter-tab {
+        font-size: .7rem;
+        padding-bottom: .5rem;
+    }
+
+    .portfolio-overlay {
+        padding: .5rem;
+    }
+
+    .overlay-category {
+        font-size: .55rem;
+        margin-bottom: 0;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    
+    .overlay-title {
+        font-size: .9rem;
+        text-align: center;
+    }
+/* ---------------------------- WORKS page ------------------------ */
+
+
+
+
+
+
+/* ---------------------------- CONTACT page ------------------------ */
+    /* .contact-header {
+
+    } */
+    
+    .contact-tag {
+        font-size: .55rem;
+        margin-bottom: .3rem;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-description {
+        font-size: .7rem;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+    }
+
+    .location-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .location-description {
+        font-size: .7rem;
+        margin-bottom: 3rem;
+    }
+
+    .info-item {
+        margin-bottom: 1rem;
+    }
+
+    .info-label {
+        font-size: .7rem;
+    }
+
+    .info-value {
+        font-size: .65rem;
+    }
+
+    .location-section {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 0 2rem;
+    }
+
+    .location-content {
+        padding-right: 0;
+        order: 1; 
+    }
+
+    .location-quote {
+        padding-left: 0;
+        border-left: none;
+        border-top: 2px solid #1a1a1a;
+        padding-top: 2rem;
+        padding-bottom: 0;
+        order: 2; 
+    }
+
+    .quote-text {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .quote-author {
+        font-size: .75rem;
+    }
+
+    .contact-cta-section {
+        padding: 1rem 2rem 3rem;
+    }
+
+    .cta-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .cta-buttons {
+        gap: 1rem;
+    }
+
+
+    
+
+/* ---------------------------- CONTACT page ------------------------ */
+
+
+
+}
